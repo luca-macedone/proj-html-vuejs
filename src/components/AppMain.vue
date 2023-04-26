@@ -1,20 +1,18 @@
 <template>
     <div>
         <MainJumbotron />
+        <MainProducts />
     </div>
 </template>
 
 <script>
 import MainJumbotron from './MainJumbotron.vue';
+import MainProducts from './MainProducts.vue';
 export default {
     name: 'AppMain',
-    data() {
-        return {
-
-        }
-    },
     components: {
         MainJumbotron,
+        MainProducts
     }
 }
 </script>

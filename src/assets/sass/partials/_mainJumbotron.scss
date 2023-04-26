@@ -1,7 +1,8 @@
 @use './variables' as *;
 
 section {
-    background: linear-gradient(to right, $s-color-dark 50%, transparent), url('/src/assets/img/slider82x-scaled.jpg');
+    padding: 6rem 0;
+    background: linear-gradient(to right, $s-color-dark 40%, transparent), url('/src/assets/img/slider82x-scaled.jpg');
     background-repeat: no-repeat;
     background-position: end;
     background-size: cover;
@@ -10,6 +11,9 @@ section {
         flex-direction: column;
         gap: .25rem;
         color: $s-color-light;
+        h1 {
+            font-size: 3rem;
+        }
         h2 {
             font-size: $s-text-lg;
             color: $s-color-secondary;

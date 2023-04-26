@@ -1,12 +1,12 @@
 <template>
-    <section class="py-5" id="jumbotron">
+    <section id="jumbotron">
         <div class="container p-3">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="jumbo py-5">
                         <h2>Certified fitness professional</h2>
                         <h1>Take control of your health</h1>
-                        <AccentDecoration />
+                        <AccentDecoration color="accent"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit consequuntur necessitatibus autem.</p>
                         <div class="d-flex align-items-center gap-2">
                             <button class="btn rounded-pill call-to-action-btn">

@@ -1,0 +1,61 @@
+@use './variables' as *;
+
+#main-products {
+    background-image: linear-gradient(to right bottom, $s-color-primary + aa, #aa1ec8aa, $s-color-secondary + aa);
+}
+
+.row {
+    position: relative;
+    top: -5rem;
+    left: auto;
+}
+
+.card {
+    aspect-ratio: 1 / 1;
+    border-radius: 0;
+    border-bottom-right-radius: 3rem !important;
+    overflow: hidden;
+    transition: .25s all ease-in-out;
+
+    img {
+        filter: brightness(60%);
+    }
+
+    &:hover {
+        scale: 1.1;
+        img {
+            filter: brightness(75%);
+        }
+    }
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    h2 {
+        color: $s-color-light;
+    }
+
+    p {
+        color: $s-color-accent;
+        margin: 0;
+    }
+}
+
+.quote {
+    color: $s-color-light;
+    h2 {
+        max-width: 42rem;
+        text-align: center;
+    }
+
+    strong, span {
+        font-size: $s-text-sm;
+    }
+
+    span {
+        font-weight: $s-light;
+    }
+}
