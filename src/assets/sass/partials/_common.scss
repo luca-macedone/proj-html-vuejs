@@ -1,3 +1,43 @@
+@use './variables' as *;
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: $s-color-dark;
+}
+
+.call-to-action-btn {
+    background-color: $s-color-primary;
+    color: $s-color-light;
+    font-size: $s-text-sm;
+    padding: .75rem 1.75rem;
+    border: none;
+
+    &:hover {
+        background-color: $s-color-secondary;
+        color: $s-color-light;
+        
+    }
+}
+
+.player-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1.66rem;
+    background-color: $s-color-light;
+    color: $s-color-primary;
+
+    &:hover {
+        background-color: $s-color-secondary;
+        color: $s-color-light;
+    }
+}
+
+.outline {
+    background-color: transparent;
+    border: 1px solid $s-color-light;
+    &:hover {
+        background-color: $s-color-light;
+        color: $s-color-dark;
+    }
 }

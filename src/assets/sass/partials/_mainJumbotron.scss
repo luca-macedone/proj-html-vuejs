@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+section {
+    background: linear-gradient(to right, $s-color-dark 50%, transparent), url('/src/assets/img/slider82x-scaled.jpg');
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: cover;
+    .jumbo {
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+        color: $s-color-light;
+        h2 {
+            font-size: $s-text-lg;
+            color: $s-color-secondary;
+        }
+        p {
+            color: $s-color-muted;
+        }
+    }
+}

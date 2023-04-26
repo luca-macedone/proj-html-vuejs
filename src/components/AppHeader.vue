@@ -16,7 +16,7 @@
                             <span class="badge rounded-0 rounded-end py-2 px-1" :class="link.badge !== ''? '':'d-none'" >{{ link.badge }}</span>
                         </li>
                         <li class="nav-item mt-2 mt-lg-0 mx-0 mx-lg-2">
-                            <button class="btn rounded-pill border-0 py-3 px-5 call-to-action-btn">Schedule a workout</button>
+                            <button class="btn rounded-pill call-to-action-btn">Schedule a workout</button>
                         </li>
                         <li class="nav-item mt-2 mt-lg-0"> <!-- cart -->
                             <a class="nav-link">
