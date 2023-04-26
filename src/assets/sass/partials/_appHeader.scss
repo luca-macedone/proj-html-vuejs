@@ -1,0 +1,34 @@
+@use './variables.scss' as *;
+
+.ms-bg-dark {
+    background-color: $s-color-dark;
+}
+
+.nav-link {
+    font-size: $s-text-sm;
+    cursor: pointer;
+    a {
+        color: $s-color-muted;
+        &.active {
+            color: $s-color-light;
+        }
+    }
+}
+
+.call-to-action-btn {
+    background-color: $s-color-primary !important;
+    color: $s-color-light !important;
+    font-size: $s-text-sm;
+    &:hover {
+        // background-color: $s-color-primary;
+        //! da chiedere
+    }
+}
+
+.badge {
+    background-color: $s-color-accent;
+    color: $s-color-dark;
+    font-weight: $s-light;
+}
+
+
