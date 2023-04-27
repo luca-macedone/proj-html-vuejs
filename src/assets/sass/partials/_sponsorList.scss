@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+#sponsor-list {
+    background-color: $s-color-light;
+    p {
+        font-weight: $s-light;
+    }
+    a {
+        color: $s-color-dark;
+        font-weight: $s-bold;
+    }
+}

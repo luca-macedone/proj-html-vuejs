@@ -7,6 +7,8 @@
         <ActitivitiesPanel />
         <LatestArticles />
         <BuyProductBanner />
+        <SponsorList />
+        <FeaturedVideo />
     </div>
 </template>
 
@@ -18,6 +20,8 @@ import MailingList from './MailingList.vue';
 import ActitivitiesPanel from './ActivitiesPanel.vue';
 import LatestArticles from './LatestArticles.vue';
 import BuyProductBanner from './BuyProductBanner.vue';
+import SponsorList from './SponsorList.vue';
+import FeaturedVideo from './FeaturedVideo.vue';
 
 export default {
     name: 'AppMain',
@@ -29,6 +33,8 @@ export default {
         ActitivitiesPanel,
         LatestArticles,
         BuyProductBanner,
+        SponsorList,
+        FeaturedVideo,
 
     }
 }

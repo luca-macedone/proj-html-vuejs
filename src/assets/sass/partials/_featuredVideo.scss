@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+#featured-video {
+    background-image: linear-gradient(to right bottom, $s-color-primary + a0,#aa1ec8a0, $s-color-secondary + a0), url('/src/assets/img/banner14-2x.jpg');
+    background-color: #010101a2;
+    background-blend-mode: hard-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $s-color-light;
+    h2 {
+        font-size: 3.5rem;
+    }
+    h3 {
+        color: $s-color-accent;
+    }
+    a {
+        color: $s-color-light;
+        font-size: $s-text-md;
+    }
+}
