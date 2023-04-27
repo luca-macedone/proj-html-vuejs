@@ -7,15 +7,16 @@ body {
 
 .call-to-action-btn {
     background-color: $s-color-primary;
+    border: 2px solid $s-color-primary;
     color: $s-color-light;
     font-size: $s-text-sm;
     padding: .75rem 1.75rem;
-    border: none;
 
     &:hover {
+        border: 2px solid $s-color-secondary;
         background-color: $s-color-secondary;
         color: $s-color-light;
-        
+
     }
 }
 
@@ -28,15 +29,29 @@ body {
     color: $s-color-primary;
 
     &:hover {
+        background-color: $s-color-light;
+        color: $s-color-secondary;
+    }
+}
+
+.youtube-btn {
+    border: 2px solid $s-color-youtube;
+    background-color: $s-color-youtube;
+    color: $s-color-light;
+
+    &:hover {
         background-color: $s-color-secondary;
+        border: 2px solid $s-color-secondary;
         color: $s-color-light;
     }
 }
 
 .outline {
     background-color: transparent;
-    border: 1px solid $s-color-light;
+    border: 2px solid $s-color-muted;
+
     &:hover {
+        border: 2px solid $s-color-light;
         background-color: $s-color-light;
         color: $s-color-dark;
     }

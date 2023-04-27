@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+#youtube-section {
+    background-color: $s-color-light;
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+#youtube-section-main-video {
+    padding: 0;
+    position: relative;
+    top: -5.5rem;
+    border-bottom-right-radius: 3rem;
+    overflow: hidden;
+    button {
+        top: calc(50% - 33px);
+        left: calc(50% - 33px);
+        z-index: 50;
+    }
+}

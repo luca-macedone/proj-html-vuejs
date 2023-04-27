@@ -1,6 +1,7 @@
 @use './variables' as *;
 
 #main-products {
+    // ! need fix, jumbotron visible under gradient
     background-image: linear-gradient(to right bottom, $s-color-primary + aa, #aa1ec8aa, $s-color-secondary + aa);
 }
 
