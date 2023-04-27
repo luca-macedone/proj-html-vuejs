@@ -1,11 +1,12 @@
 <template>
-    <div>
+    <div id="app-main">
         <MainJumbotron />
         <MainProducts />
         <YoutubeSection />
         <MailingList />
         <ActitivitiesPanel />
         <LatestArticles />
+        <BuyProductBanner />
     </div>
 </template>
 
@@ -16,6 +17,8 @@ import YoutubeSection from './YoutubeSection.vue';
 import MailingList from './MailingList.vue';
 import ActitivitiesPanel from './ActivitiesPanel.vue';
 import LatestArticles from './LatestArticles.vue';
+import BuyProductBanner from './BuyProductBanner.vue';
+
 export default {
     name: 'AppMain',
     components: {
@@ -25,6 +28,8 @@ export default {
         MailingList,
         ActitivitiesPanel,
         LatestArticles,
+        BuyProductBanner,
+
     }
 }
 </script>

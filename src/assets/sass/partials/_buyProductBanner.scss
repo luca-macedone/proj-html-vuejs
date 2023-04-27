@@ -1,0 +1,9 @@
+@use './variables' as *;
+
+#buy-product-banner {
+    background-image: linear-gradient(to top, $s-color-dark, transparent), url('/src/assets/img/banner2-2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $s-color-light;
+}
