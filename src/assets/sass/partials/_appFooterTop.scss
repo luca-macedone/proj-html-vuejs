@@ -1,0 +1,23 @@
+@use './variables' as *;
+
+#app-footer-top {
+    color: $s-color-light;
+
+    #socials {
+        color: $s-color-secondary;
+    }
+
+    #footer-latest-articles {
+        .article {
+            color: $s-color-light;
+        }
+    }
+
+    #footer-contacts {
+        #footer-contacts-location {
+            color: $s-color-muted;
+        }
+    }
+
+
+}

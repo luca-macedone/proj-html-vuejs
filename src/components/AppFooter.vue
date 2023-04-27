@@ -1,20 +1,20 @@
 <template>
     <div>
-
+        <AppFooterTop class="border-bottom" />
+        
     </div>
 </template>
 
 <script>
-    export default {
-        name: 'AppFooter',
-        data(){
-            return {
-                
-            }
-        },
+import AppFooterTop from './AppFooterTop.vue';
+export default {
+    name: 'AppFooter',
+    components: {
+        AppFooterTop,
     }
+}
 </script>
 
 <style lang="scss" scoped>
-    @use '../assets/sass/partials/appFooter' as *;
+@use '../assets/sass/partials/appFooter' as *;
 </style>
