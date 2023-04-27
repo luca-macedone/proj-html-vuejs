@@ -1,7 +1,7 @@
 <template>
     <div class="py-5" id="app-footer-top">
         <div class="container">
-            <div class="row">
+            <div class="row g-5">
                 <div class="col-12 col-lg-4 d-flex flex-column align-items-center gap-4">
                     <img height="32" :src="state.getImageUrl('logo-2x.png')" class="" alt="Avada Logo">
                     <p class="text-center">

@@ -1,0 +1,10 @@
+@use './variables' as *;
+
+#app-footer-bottom {
+    color: $s-color-muted;
+    font-weight: $s-light;
+    .emphasis {
+        color: $s-color-light;
+        font-weight: $s-regular;
+    }
+}
