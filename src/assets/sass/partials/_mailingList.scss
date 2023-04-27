@@ -1,0 +1,41 @@
+@use './variables' as *;
+
+#mailing-list {
+    background: linear-gradient(to right, $s-color-dark 40%, transparent), url('/src/assets/img/banner1-2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $s-color-light;
+
+    h2 {
+        font-size: $s-text-lg;
+        color: $s-color-secondary;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    input {
+        padding: .75rem 1.75rem;
+    }
+
+    button {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    p {
+        color: $s-color-muted;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h3 {
+        max-width: 70%;
+    }
+
+    p {
+        max-width: 80%;
+    }
+}

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-md navbar-dark ms-bg-dark py-4">
+        <nav class="navbar navbar-expand-lg navbar-dark ms-bg-dark py-4">
               <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="../assets/img/logo.png" height="28" alt="">

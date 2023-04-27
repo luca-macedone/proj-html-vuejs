@@ -3,6 +3,7 @@
         <MainJumbotron />
         <MainProducts />
         <YoutubeSection />
+        <MailingList />
     </div>
 </template>
 
@@ -10,12 +11,14 @@
 import MainJumbotron from './MainJumbotron.vue';
 import MainProducts from './MainProducts.vue';
 import YoutubeSection from './YoutubeSection.vue';
+import MailingList from './MailingList.vue';
 export default {
     name: 'AppMain',
     components: {
         MainJumbotron,
         MainProducts,
         YoutubeSection,
+        MailingList,
     }
 }
 </script>
