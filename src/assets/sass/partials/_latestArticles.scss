@@ -1,0 +1,36 @@
+@use './variables' as *;
+
+#latest-articles {
+    background-color: $s-color-light;
+
+    .card {
+        cursor: pointer;
+
+        h5 {
+            font-size: $s-text-xl;
+            font-weight: $s-regular;
+        }
+
+        small {
+            font-weight: $s-light;
+        }
+    }
+}
+
+
+.card:hover {
+    .img-gradient {
+        position: relative;
+        transition: .25s all ease-in-out;
+
+        &::after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 80%;
+            width: 100%;
+            content: '';
+            background-image: linear-gradient(to top, $s-color-primary + aa, transparent);
+        }
+    }
+}

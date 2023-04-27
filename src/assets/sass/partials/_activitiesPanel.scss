@@ -9,6 +9,8 @@
         border: 2px solid $s-color-primary;
         border-radius: .25rem;
         color: $s-color-light;
+        transition: .25s all ease-in-out;
+
         a {
             color: $s-color-light;
         }
@@ -28,6 +30,10 @@
         }
         img {
             filter: invert(100%);
+        }
+
+        &:hover {
+            scale: 1.1;
         }
     }
 }
