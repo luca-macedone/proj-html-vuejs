@@ -4,9 +4,9 @@
             <div class="row g-5">
                 <div class="col-12 col-md-6 col-lg-4" v-for="product in productsList">
                     <div class="card border-0 shadow">
-                        <img class="card-img rounded-0 border-0" :src="getImageUrl(product.img_URL)" :alt="product.title">
+                        <img class="card-img rounded-0 border-0" :src="state.getImageUrl(product.img_URL)" :alt="product.title">
                         <div class="card-img-overlay rounded-0 border-0">
-                            <AccentDecoration color="light"/>
+                            <AccentDecoration color="light" />
                             <h2>
                                 {{ product.title }}
                             </h2>
@@ -20,9 +20,9 @@
                     <h2 class="w-100 w-md-50">
                         "{{ quote.text }}"
                     </h2>
-                    <AccentDecoration color="accent"/>
+                    <AccentDecoration color="accent" />
                     <div class="d-flex gap-3 align-items-center">
-                        <img class="rounded-circle" :src="getImageUrl(quote.img_URL)" height="38" :alt="quote.author">
+                        <img class="rounded-circle" :src="state.getImageUrl(quote.img_URL)" height="38" :alt="quote.author">
                         <strong>{{ quote.author }}</strong>
                         <span>{{ quote.location }}</span>
 
@@ -35,10 +35,12 @@
 
 <script>
 import AccentDecoration from './AccentDecoration.vue';
+import { state } from '../state.js';
 export default {
     name: 'MainProducts',
     data() {
         return {
+            state,
             productsList: [
                 {
                     title: 'Crossfit workout',
@@ -66,11 +68,6 @@ export default {
     },
     components: {
         AccentDecoration,
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`/src/assets/img/${name}`, import.meta.url).href
-        }
     },
 }
 </script>

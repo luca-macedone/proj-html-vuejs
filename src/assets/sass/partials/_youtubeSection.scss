@@ -7,15 +7,71 @@
     }
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 #youtube-section-main-video {
     padding: 0;
     position: relative;
     top: -5.5rem;
-    border-bottom-right-radius: 3rem;
-    overflow: hidden;
+    left: 0;
     button {
+        scale: 1.5;
         top: calc(50% - 33px);
         left: calc(50% - 33px);
         z-index: 50;
+    }
+}
+
+#youtube-section-header {
+    label {
+        font-size: $s-text-sm;
+        cursor: pointer;
+        display: flex;
+        padding: 0 .75rem;
+        align-items: center;
+        border: 1px solid $s-color-muted;
+        border-left: 0;
+        border-bottom-right-radius: .25rem;
+        border-top-right-radius: .25rem;
+    }
+}
+
+.videos {
+    .player-btn {
+        scale: .8;
+        top: calc(50% - 33px);
+        left: calc(50% - 33px);
+    }
+    .card-body {
+
+        h6 {
+            color: $s-color-primary;
+        }
+    }
+    .videos-img {
+        border-radius: .25rem;
+        border-bottom-right-radius: 1.5rem;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    
+    #youtube-section-main-video {
+        padding: 0;
+        position: relative;
+        top: -5.5rem;
+        border-top-right-radius: .25rem;
+        border-bottom-right-radius: 3rem;
+        overflow: hidden;
+        button {
+            top: calc(50% - 33px);
+            left: calc(50% - 33px);
+            z-index: 50;
+        }
     }
 }
