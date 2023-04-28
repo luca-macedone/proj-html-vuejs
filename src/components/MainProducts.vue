@@ -1,31 +1,35 @@
 <template>
-    <div id="main-products">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-12 col-md-6 col-lg-4" v-for="product in productsList">
-                    <div class="card border-0 shadow">
-                        <img class="card-img rounded-0 border-0" :src="state.getImageUrl(product.img_URL)" :alt="product.title">
-                        <div class="card-img-overlay rounded-0 border-0">
-                            <AccentDecoration color="light" />
-                            <h2>
-                                {{ product.title }}
-                            </h2>
-                            <p>
-                                {{ product.quote }}
-                            </p>
+    <div class="mt-5">
+        <div id="main-products">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 col-md-6 col-lg-4" v-for="product in productsList">
+                        <div class="card border-0 shadow">
+                            <img class="card-img rounded-0 border-0" :src="state.getImageUrl(product.img_URL)"
+                                :alt="product.title">
+                            <div class="card-img-overlay rounded-0 border-0">
+                                <AccentDecoration color="light" />
+                                <h2>
+                                    {{ product.title }}
+                                </h2>
+                                <p>
+                                    {{ product.quote }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center py-5 quote">
-                    <h2 class="w-100 w-md-50">
-                        "{{ quote.text }}"
-                    </h2>
-                    <AccentDecoration color="accent" />
-                    <div class="d-flex gap-3 align-items-center">
-                        <img class="rounded-circle" :src="state.getImageUrl(quote.img_URL)" height="38" :alt="quote.author">
-                        <strong>{{ quote.author }}</strong>
-                        <span>{{ quote.location }}</span>
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center py-5 quote">
+                        <h2 class="w-100 w-md-50">
+                            "{{ quote.text }}"
+                        </h2>
+                        <AccentDecoration color="accent" />
+                        <div class="d-flex gap-3 align-items-center mb-5">
+                            <img class="rounded-circle" :src="state.getImageUrl(quote.img_URL)" height="38"
+                                :alt="quote.author">
+                            <strong>{{ quote.author }}</strong>
+                            <span>{{ quote.location }}</span>
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,6 +76,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@use '../assets/sass/partials/mainProducts' as *;
-</style>
+<style lang="scss" scoped>@use '../assets/sass/partials/mainProducts' as *;</style>

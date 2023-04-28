@@ -1,14 +1,7 @@
 @use './variables' as *;
 
 #main-products {
-    // ! need fix, jumbotron visible under gradient
     background-image: linear-gradient(to right bottom, $s-color-primary + aa, #aa1ec8aa, $s-color-secondary + aa);
-}
-
-.row {
-    position: relative;
-    top: -5rem;
-    left: auto;
 }
 
 .card {
@@ -18,17 +11,12 @@
     border-bottom-right-radius: 3rem !important;
     overflow: hidden;
     transition: .25s all ease-in-out;
+    
 
     img {
         filter: brightness(60%);
     }
 
-    &:hover {
-        scale: 1.1;
-        img {
-            filter: brightness(75%);
-        }
-    }
 }
 
 .card-img-overlay {
@@ -48,16 +36,37 @@
 
 .quote {
     color: $s-color-light;
+
     h2 {
         max-width: 42rem;
         text-align: center;
     }
 
-    strong, span {
+    strong,
+    span {
         font-size: $s-text-sm;
     }
 
     span {
         font-weight: $s-light;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        position: relative;
+        top: -6rem;
+        left: auto;
+        &:hover {
+            scale: 1.1;
+
+            img {
+                filter: brightness(75%);
+            }
+        }
+    }
+
+    .quote {
+        margin-top: -6rem;
     }
 }

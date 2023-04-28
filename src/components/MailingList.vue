@@ -11,10 +11,14 @@
                     </h3>
                     <AccentDecoration class="py-3" color="accent"/>
                     <div class="row align-items-center gap-3 p-2 ">
-                        <input type="text" class="border-0 rounded-pill col-12 col-lg-8" placeholder="Insert your email...">
-                        <button class="btn rounded-pill call-to-action-btn col-12 col-lg-3">
-                            Subscribe
-                        </button>
+                        <div class="col-12 col-lg-8">
+                            <input type="text" class="border-0 rounded-pill" placeholder="Insert your email...">
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <button class="btn rounded-pill call-to-action-btn">
+                                Subscribe
+                            </button>
+                        </div>
                     </div>
                     <p class="py-5 text-center text-md-start">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ducimus eius repellendus aperiam voluptatibus perspiciatis, ea quidem quisquam asperiores sit?
