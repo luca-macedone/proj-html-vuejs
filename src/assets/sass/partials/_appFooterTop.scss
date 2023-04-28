@@ -5,19 +5,35 @@
 
     #socials {
         color: $s-color-secondary;
-    }
 
-    #footer-latest-articles {
-        .article {
-            color: $s-color-light;
+        * {
+            cursor: pointer;
+            transition: .25s all ease-in-out;
+
+            &:hover {
+                scale: 1.2;
+            }
         }
     }
 
-    #footer-contacts {
-        #footer-contacts-location {
-            color: $s-color-muted;
+
+#footer-latest-articles {
+    .article {
+        color: $s-color-light;
+        transition: .25s all ease-in-out;
+
+        &:hover {
+            color: $s-color-primary;
         }
+
     }
+}
+
+#footer-contacts {
+    #footer-contacts-location {
+        color: $s-color-muted;
+    }
+}
 
 
 }

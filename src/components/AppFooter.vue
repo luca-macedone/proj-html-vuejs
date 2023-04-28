@@ -1,6 +1,6 @@
 <template>
     <div>
-        <AppFooterTop class="border-bottom" />
+        <AppFooterTop class="border-bottom" :list="list" />
         <AppFooterBottom />
     </div>
 </template>
@@ -13,7 +13,8 @@ export default {
     components: {
         AppFooterTop,
         AppFooterBottom,
-    }
+    },
+    props: ['list'],
 }
 </script>
 

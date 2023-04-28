@@ -42,40 +42,10 @@
         data(){
             return {
                 activeLink: 0,
-                navbarLinks: [
-                    {
-                        name: 'Home',
-                        href: '#',
-                        badge: '',
-                    },
-                    {
-                        name: 'Services',
-                        href: '#',
-                        badge: '',
-                    },
-                    {
-                        name: 'About',
-                        href: '#',
-                        badge: '',
-                    },
-                    {
-                        name: 'Videos',
-                        href: '#',
-                        badge: '',
-                    },
-                    {
-                        name: 'Blog',
-                        href: '#',
-                        badge: '',
-                    },
-                    {
-                        name: 'Store',
-                        href: '#',
-                        badge: 'new',
-                    },
-                ],
+                navbarLinks: this.list,
             }
         },
+        props: ['list'],
     }
 </script>
 
