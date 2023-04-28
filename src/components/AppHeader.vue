@@ -12,16 +12,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0 d-flex align-items-center gap-3">
-                        <li class="nav-item d-flex align-items-center gap-2 gap-lg-0" v-for="(link, index) in navbarLinks">
+                        <li class="nav-item d-flex align-items-center gap-2 gap-lg-0" v-for="(link, index) in navbarLinks" :class="showSearchbar ? 'd-none' : ''">
                             <a class="nav-link" :class="activeLink == index ? 'active' : ''" :href="link.href">{{ link.name
                             }}</a>
                             <span class="badge rounded-0 rounded-end py-2 px-1" :class="link.badge !== '' ? '' : 'd-none'">{{
                                 link.badge }}</span>
                         </li>
-                        <li class="nav-item mt-2 mt-lg-0 mx-0 mx-lg-2">
+                        <li class="nav-item mt-2 mt-lg-0 mx-0 mx-lg-2" :class="showSearchbar ? 'd-none' : ''">
                             <button class="btn rounded-pill call-to-action-btn">Schedule a workout</button>
                         </li>
-                        <li class="nav-item mt-2 mt-lg-0"> <!-- cart -->
+                        <li class="nav-item mt-2 mt-lg-0" :class="showSearchbar ? 'd-none' : ''"> <!-- cart -->
                             <a class="nav-link">
                                 <font-awesome-icon icon="fa-solid fa-cart-shopping" />
                             </a>
