@@ -43,16 +43,34 @@ export default {
 					badge: 'new',
 				},
 			],
+			scrollPositionY: 0,
 		}
+	},
+	mounted() {
+		window.addEventListener('scroll', this.handleScroll);
+	},
+	methods: {
+		handleScroll() {
+			this.scrollPositionY = window.scrollY;
+		},
+		toTop() {
+			window.scrollTo({
+				top: 0,
+				behavior: "smooth"
+			});
+		},
 	}
 }
 </script>
 
 <template>
 	<div>
-		<AppHeader :list="headerLinks"/>
+		<AppHeader :list="headerLinks" />
 		<AppMain />
-		<AppFooter/>
+		<AppFooter />
+		<button class="btn shadow" v-show="scrollPositionY > 300" id="scroll-top-btn" @click="toTop">
+			<font-awesome-icon icon="fa-solid fa-arrow-up" />
+		</button>
 	</div>
 </template>
 

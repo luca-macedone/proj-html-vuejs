@@ -60,7 +60,7 @@ export default {
     data() {
         return {
             activeLink: 0,
-            showSearchbar: true,
+            showSearchbar: false,
             navbarLinks: this.list,
         }
     },

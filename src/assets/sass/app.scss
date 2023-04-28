@@ -1,4 +1,22 @@
 @use '/node_modules/bootstrap/scss/bootstrap.scss' as *;
 @use './partials/common' as *;
-@use './partials/variables';
+@use './partials/variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+#scroll-top-btn {
+    // display: none;
+    border: none;
+    background-color: $s-color-dark;
+    color: $s-color-light;
+    position: fixed;
+    border-radius: .25rem;
+    padding: .25rem 1rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+
+    &:hover {
+        color: $s-color-primary;
+        background-color: $s-color-light;
+        scale: 1.4;
+    }
+}
