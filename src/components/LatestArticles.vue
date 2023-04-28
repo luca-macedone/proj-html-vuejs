@@ -4,7 +4,7 @@
             <div class="row py-5">
                 <div class="col-12 d-flex justify-content-between align-items-center py-4">
                     <h3>Latest articles</h3>
-                    <span>
+                    <span class="see-more-link">
                         Read all articles
                         <font-awesome-icon icon="fa-solid fa-angle-right" />
                     </span>

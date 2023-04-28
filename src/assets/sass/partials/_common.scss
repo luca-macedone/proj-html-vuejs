@@ -46,6 +46,13 @@ body {
     }
 }
 
+.see-more-link {
+    cursor: pointer;
+    &:hover {
+        color: $s-color-secondary;
+    }
+}
+
 .outline {
     background-color: transparent;
     border: 2px solid $s-color-muted;

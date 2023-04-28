@@ -68,7 +68,7 @@ export default {
 		<AppHeader :list="headerLinks" />
 		<AppMain />
 		<AppFooter />
-		<button class="btn shadow" v-show="scrollPositionY > 300" id="scroll-top-btn" @click="toTop">
+		<button class="btn shadow bg-dark bg-opacity-50" v-show="scrollPositionY > 300" id="scroll-top-btn" @click="toTop">
 			<font-awesome-icon icon="fa-solid fa-arrow-up" />
 		</button>
 	</div>
