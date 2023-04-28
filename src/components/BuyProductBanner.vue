@@ -9,7 +9,7 @@
                     <AccentDecoration color="accent" />
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nemo dolore expedita laudantium
-                        dolor asperiores sed assumenda veritatis sint explicabo!
+                        dolor asperiores sed assumenda veritatis sint explicabo! Lorem ipsum dolor sit amet consectetur.
                     </p>
                     <button class="btn rounded-pill call-to-action-btn">
                         Buy Avada today

@@ -1,6 +1,6 @@
 <template>
     <div id="app-footer-bottom">
-        <div class="py-3 d-flex justify-content-center align-items-center flex-wrap gap-3">
+        <div class="py-5 d-flex justify-content-center align-items-center flex-wrap gap-3">
             <span>
                 <font-awesome-icon icon="fa-solid fa-copyright" class="me-1" />
                 Copyright 2012-2023 

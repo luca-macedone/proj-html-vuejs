@@ -1,9 +1,9 @@
 <template>
     <div class="py-5" id="app-footer-top">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-5 my-5">
                 <div class="col-12 col-lg-4 d-flex flex-column align-items-center gap-4 text-center">
-                    <img height="32" :src="state.getImageUrl('logo-2x.png')" class="" alt="Avada Logo">
+                    <img height="38" :src="state.getImageUrl('logo-2x.png')" class="" alt="Avada Logo">
                     <p class="">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odit eos error blanditiis aspernatur,
                         temporibus libero sapiente labore fugit sit magni nam dolorem quas.

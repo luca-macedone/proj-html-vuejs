@@ -13,9 +13,14 @@
     }
     h3 {
         color: $s-color-accent;
+        font-weight: $s-bold;
+        font-size: 2.4rem;
     }
     a {
         color: $s-color-light;
         font-size: $s-text-md;
+    }
+    .player-btn {
+        scale: 1.3;
     }
 }

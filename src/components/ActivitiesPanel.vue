@@ -1,10 +1,10 @@
 <template>
     <div class="py-5" id="activities-panel">
-        <div class="container">
+        <div class="container py-5">
             <div class="row g-5">
                 <div class="col-12 col-md-6 col-lg-4" v-for="activity in activitiesList">
-                    <div class="activity-card p-5 d-flex flex-column align-items-center gap-3">
-                        <img class="img-fluid" :class="activity.img_URL === 'dumbbell.png'? 'rotate': ''" width="100" :src="state.getImageUrl(activity.img_URL)" :alt="activity.title">
+                    <div class="activity-card d-flex flex-column align-items-center gap-4">
+                        <img class="img-fluid" :class="activity.img_URL === 'dumbbell.png'? 'rotate': ''" width="80" :src="state.getImageUrl(activity.img_URL)" :alt="activity.title">
                         <h3>{{ activity.title }}</h3>
                         <h4>{{ activity.subtitle }}</h4>
                         <p>{{ activity.text }}</p>
@@ -30,7 +30,7 @@
                     {
                         title: 'Team training',
                         subtitle: 'Find a partner',
-                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium numquam nulla libero dignissimos nesciunt nihil quidem.',
+                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium.',
                         link_text: 'Find a partner',
                         link_href: '#',
                         img_URL: 'smartwatch.png',
@@ -38,7 +38,7 @@
                     {
                         title: 'Crossfit workout',
                         subtitle: 'Push your limits',
-                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium numquam nulla libero dignissimos nesciunt nihil quidem.',
+                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium.',
                         link_text: 'Find a partner',
                         link_href: '#',
                         img_URL: 'dumbbell.png',
@@ -46,7 +46,7 @@
                     {
                         title: 'Weight loss plan',
                         subtitle: 'Shed those pounds',
-                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium numquam nulla libero dignissimos nesciunt nihil quidem.',
+                        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem. Laborum quos accusantium.',
                         link_text: 'Find a partner',
                         link_href: '#',
                         img_URL: 'waist.png',

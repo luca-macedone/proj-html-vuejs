@@ -6,4 +6,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: $s-color-light;
+    h2 {
+        font-size: 4rem;
+        max-width: 60%;
+    }
+    p{
+        max-width: 60%;
+    }
 }

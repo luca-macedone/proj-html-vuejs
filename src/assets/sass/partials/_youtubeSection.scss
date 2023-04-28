@@ -26,6 +26,15 @@
 }
 
 #youtube-section-header {
+    strong {
+        color: $s-color-primary;
+        font-size: $s-text-xl;
+    }
+    h2 {
+        width: 75%;
+        font-size: 3.5rem;
+        font-weight: $s-regular;
+    }
     label {
         font-size: $s-text-sm;
         cursor: pointer;
@@ -46,8 +55,11 @@
         left: calc(50% - 33px);
     }
     .card-body {
-
+        h5 {
+            font-size: $s-text-xl;
+        }
         h6 {
+            font-size: $s-text-lg;
             color: $s-color-primary;
         }
     }

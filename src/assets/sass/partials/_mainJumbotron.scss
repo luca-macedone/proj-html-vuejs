@@ -10,15 +10,15 @@ section {
     .jumbo {
         display: flex;
         flex-direction: column;
-        gap: .25rem;
+        gap: .75rem;
         color: $s-color-light;
 
         h1 {
-            font-size: 3rem;
+            font-size: 3.75rem;
         }
 
         h2 {
-            font-size: $s-text-lg;
+            font-size: $s-text-xl;
             color: $s-color-secondary;
         }
 
