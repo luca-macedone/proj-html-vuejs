@@ -16,7 +16,7 @@
                             Subscribe
                         </button>
                     </div>
-                    <p class="py-5">
+                    <p class="py-5 text-center text-md-start">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ducimus eius repellendus aperiam voluptatibus perspiciatis, ea quidem quisquam asperiores sit?
                     </p>
                 </div>

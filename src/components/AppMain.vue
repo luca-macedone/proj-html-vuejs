@@ -9,7 +9,6 @@
         <BuyProductBanner />
         <SponsorList />
         <FeaturedVideo />
-        <AppFooter />
     </div>
 </template>
 
@@ -23,7 +22,6 @@ import LatestArticles from './LatestArticles.vue';
 import BuyProductBanner from './BuyProductBanner.vue';
 import SponsorList from './SponsorList.vue';
 import FeaturedVideo from './FeaturedVideo.vue';
-import AppFooter from './AppFooter.vue';
 
 export default {
     name: 'AppMain',
@@ -37,7 +35,6 @@ export default {
         BuyProductBanner,
         SponsorList,
         FeaturedVideo,
-        AppFooter,
 
     }
 }

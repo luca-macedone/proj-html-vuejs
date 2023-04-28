@@ -2,7 +2,7 @@
     <section class="py-5" id="featured-video">
         <div class="container py-5">
             <div class="row py-5">
-                <div class="col-12 d-flex flex-column align-items-center gap-3">
+                <div class="col-12 d-flex flex-column align-items-center gap-3 text-center">
                     <button class="btn rounded-circle player-btn">
                             <font-awesome-icon icon="fa-solid fa-play" />
                         </button>

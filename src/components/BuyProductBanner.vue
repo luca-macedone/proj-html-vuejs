@@ -2,8 +2,8 @@
     <section class="py-5" id="buy-product-banner">
         <div class="container py-5">
             <div class="row py-5">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center gap-3">
-                    <h2 class="text-center">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center gap-3 text-center">
+                    <h2>
                         "I've failed over and over again in my life. And that is why I succeed."
                     </h2>
                     <AccentDecoration color="accent" />

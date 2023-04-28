@@ -2,7 +2,7 @@
     <div class="py-5" id="sponsor-list">
         <div class="container py-5">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center text-center" v-for="sponsor in sponsors">
+                <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center text-center g-5" v-for="sponsor in sponsors">
                     <img class="img-fluid" width="150" :src="state.getImageUrl(sponsor.img_URL)" :alt="sponsor.name">
                     <AccentDecoration color="primary" />
                     <p>
