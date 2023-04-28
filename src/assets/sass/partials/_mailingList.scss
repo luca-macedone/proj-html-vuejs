@@ -20,6 +20,9 @@
     input {
         padding: .75rem 1.75rem;
         width: 100%;
+        &:focus {
+            box-shadow: none;
+        }
     }
 
     button {

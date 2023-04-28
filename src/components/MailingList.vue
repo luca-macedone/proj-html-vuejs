@@ -12,7 +12,7 @@
                     <AccentDecoration class="py-3" color="accent"/>
                     <div class="row align-items-center gap-3 p-2 ">
                         <div class="col-12 col-lg-8">
-                            <input type="text" class="border-0 rounded-pill" placeholder="Insert your email...">
+                            <input type="text" class="border-0 rounded-pill form-control" placeholder="Insert your email...">
                         </div>
                         <div class="col-12 col-lg-3">
                             <button class="btn rounded-pill call-to-action-btn">

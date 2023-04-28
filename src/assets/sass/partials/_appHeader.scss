@@ -12,6 +12,10 @@
         &.active {
             color: $s-color-light;
         }
+
+    }
+    &:hover{
+        color: $s-color-light;
     }
 }
 
@@ -21,4 +25,61 @@
     font-weight: $s-light;
 }
 
+.input-group {
+    input,
+    button{
+        border: 0;
+        background-color: $s-color-light;
+        color: $s-color-dark;
+    }
+    input{
+        padding: .75rem .75rem;
+        // border-top-right-radius: 1.5rem;
+        // border-bottom-right-radius: 1.5rem;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    button {
+        padding: .75rem .75rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
 
+    #close-searchbar-btn {
+        color: red;
+        padding: .75rem 1.25rem;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+#show-searchbar-btn {
+    color: $s-color-secondary;
+    background: transparent;
+    padding: .35rem;
+    border: none;
+    
+}
+
+#show-searchbar-btn {
+    color: $s-color-muted;
+    &:hover {
+        color: $s-color-light;
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
