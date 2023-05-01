@@ -1,4 +1,4 @@
-<img src="./src/assets/img/logo-2x.png" class="shadow">
+# Avada Fitness
 
 ### Principali attività del cliente descritte sul sito
 
@@ -111,11 +111,3 @@ I **possibili miglioramenti** che si possono apportare sono:
 - integrale il player di YouTube all'interno del sito in modo da mantenere il visitare all'interno di esso e facilitare le vendite
 - inserire un possibile tema notturno
 - inserire degli strumenti di accessibilità per una migliore fruizione
-
-<style>
-
-    .shadow {
-        filter: drop-shadow(0 0 6px black)
-    }
-
-</style>
